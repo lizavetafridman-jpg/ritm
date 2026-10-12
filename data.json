@@ -1,0 +1,216 @@
+{
+  "app": {
+    "title": "Мой ритм",
+    "version": "4.4"
+  },
+  "settings": {
+    "water": {
+      "goalMl": 2000,
+      "stepMl": 250
+    },
+    "reading": {
+      "goalPages": 20,
+      "currentBook": "Атомные привычки",
+      "bookTotalPages": 320,
+      "bookPagesBefore": 84
+    },
+    "noteMaxLength": 200,
+    "theme": "creme",
+    "syncUrl": "",
+    "demoMode": true
+  },
+  "phrases": [
+    "Маленький шаг — каждый день",
+    "Сильная. Спокойная. Собранная.",
+    "Дисциплина — это забота о себе",
+    "Тело помнит каждую тренировку",
+    "Сегодня — ещё один раунд",
+    "Я выбираю себя",
+    "Медленно, но не останавливаясь",
+    "С Богом — шаг за шагом",
+    "Бог рядом. Я справлюсь",
+    "Благодарю за этот день",
+    "Это никогда не была удача — это был Бог",
+    "Я в руках Бога"
+  ],
+  "habits": [
+    {
+      "id": "water",
+      "type": "counter",
+      "title": "Вода",
+      "subtitle": "2 литра в день",
+      "icon": "drop"
+    },
+    {
+      "id": "workout",
+      "type": "choice",
+      "title": "Тренировка",
+      "subtitle": "Что было сегодня",
+      "icon": "glove",
+      "options": [
+        {
+          "id": "strength",
+          "label": "Силовая"
+        },
+        {
+          "id": "boxing",
+          "label": "Бокс"
+        },
+        {
+          "id": "stretch",
+          "label": "Растяжка"
+        },
+        {
+          "id": "rest",
+          "label": "День отдыха"
+        }
+      ],
+      "time": "day"
+    },
+    {
+      "id": "posture",
+      "type": "check",
+      "title": "Осанка",
+      "subtitle": "Упражнения для спины",
+      "icon": "spine",
+      "time": "morning"
+    },
+    {
+      "id": "pills",
+      "type": "check",
+      "title": "Флутофарм",
+      "subtitle": "1 раз в день",
+      "icon": "pill",
+      "time": "morning"
+    },
+    {
+      "id": "reading",
+      "type": "pages",
+      "title": "Чтение",
+      "subtitle": "Цель — 20 страниц",
+      "icon": "book",
+      "time": "evening"
+    },
+    {
+      "id": "gratitude",
+      "type": "check",
+      "title": "Благодарность",
+      "subtitle": "Записать в дневник",
+      "icon": "heart",
+      "time": "evening"
+    },
+    {
+      "id": "church",
+      "type": "weekday",
+      "title": "Церковь",
+      "subtitle": "По воскресеньям",
+      "icon": "church",
+      "weekday": 0,
+      "time": "day"
+    },
+    {
+      "id": "massage",
+      "type": "weekly",
+      "title": "Массаж",
+      "subtitle": "2 раза в неделю",
+      "icon": "hand",
+      "timesPerWeek": 2,
+      "time": "day"
+    }
+  ],
+  "demoLog": [
+    {
+      "date": "-9",
+      "water": 2000,
+      "workout": "boxing",
+      "posture": true,
+      "pills": true,
+      "pages": 20,
+      "massage": true,
+      "note": "Хороший спарринг, держала дистанцию",
+      "gratitude": true
+    },
+    {
+      "date": "-8",
+      "water": 1500,
+      "workout": "stretch",
+      "posture": true,
+      "pills": true,
+      "pages": 10,
+      "gratitude": true
+    },
+    {
+      "date": "-7",
+      "water": 2000,
+      "workout": "strength",
+      "posture": true,
+      "pills": true,
+      "pages": 22,
+      "note": "Присед стал легче",
+      "gratitude": true
+    },
+    {
+      "date": "-6",
+      "water": 2000,
+      "workout": "boxing",
+      "posture": false,
+      "pills": true,
+      "pages": 20,
+      "massage": true,
+      "gratitude": true
+    },
+    {
+      "date": "-5",
+      "water": 1250,
+      "workout": "rest",
+      "posture": true,
+      "pills": true,
+      "pages": 5,
+      "note": "Мало спала, день тяжёлый"
+    },
+    {
+      "date": "-4",
+      "water": 2000,
+      "workout": "boxing",
+      "posture": true,
+      "pills": true,
+      "pages": 24,
+      "massage": true,
+      "gratitude": true
+    },
+    {
+      "date": "-3",
+      "water": 1750,
+      "workout": "strength",
+      "posture": true,
+      "pills": true,
+      "pages": 20,
+      "gratitude": true
+    },
+    {
+      "date": "-2",
+      "water": 2000,
+      "workout": "stretch",
+      "posture": false,
+      "pills": true,
+      "pages": 12,
+      "gratitude": true
+    },
+    {
+      "date": "-1",
+      "water": 2000,
+      "workout": "boxing",
+      "posture": true,
+      "pills": true,
+      "pages": 28,
+      "church": true,
+      "note": "Церковь, потом прогулка. Спокойный день",
+      "gratitude": true
+    },
+    {
+      "date": "0",
+      "water": 750,
+      "pills": true
+    }
+  ]
+}
